@@ -33,7 +33,7 @@ public class DutchFlagSorting012 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the elements of the array (0, 1, 2) separated by spaces:");
+        System.out.println("Enter the elements of the array (0, 1, 2): ");
         String input = scanner.nextLine();
 
         if (input.isEmpty()) {
