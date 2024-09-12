@@ -1,3 +1,6 @@
+/*You are given two sorted arrays arr1 of size m and arr2 of size n. 
+Your task is to merge these two arrays into a single sorted array without using any extra space (i.e., in-place merging). 
+The elements in arr1 should be merged first, followed by the elements of arr2, resulting in both arrays being sorted after the merge.*/
 import java.util.Arrays;
 
 public class MergeSortedArrays {
@@ -28,6 +31,7 @@ public class MergeSortedArrays {
         mergeArrays(arr1_1, arr1_1.length, arr2_1, arr2_1.length);
         System.out.println("arr1: " + Arrays.toString(arr1_1));
         System.out.println("arr2: " + Arrays.toString(arr2_1));
+        //Output: arr1 = [1, 2, 3], arr2 = [4, 5, 6]
 
         // Test case 2
         int[] arr1_2 = {10, 12, 14};
